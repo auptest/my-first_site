@@ -1,0 +1,49 @@
+/* Сброс внешних отступов и настройка шрифта */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #24292e; /* Цвет в стиле GitHub */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* Основной контент */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Блоки с контентом */
+.card {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Списки */
+ul {
+    padding-left: 20px;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
